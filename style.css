@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+ color: black;
+ font-size: 2.5rem;
+}
+#title-container{
+    background-color: rgb(247, 247, 77);
+    width:50rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:.5rem ;
+    margin: 10rem auto 5rem;
+}
+.inputs-container{
+    display: flex;
+    justify-content: center;
+    margin:2.5rem ;
+}
+.article-price, .discount{
+    margin: .5rem;
+    padding: 0 0 2.5rem;
+    width: 50rem;
+    height: fit-content;
+    border: #646464a3 1px solid;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.center1{
+    display: flex;
+    justify-content: center;
+}
+.in-style1{
+height: 3rem;
+border: none;
+border-radius: 1rem;
+font-size: 2rem;
+}
+.in-style1:hover{
+border: .1rem solid #646464a3;
+background-color:  rgb(247, 247, 77);
+}
+.center2{
+    display: flex;
+    justify-content: center;
+}
+.answer-container{
+    display: flex;
+}
+.answer-sub-container{
+    margin: 0 .5rem 0;
+    font-size: 2rem;
+    height: 12rem;
+    width: 50rem;
+    background-color: rgb(247, 247, 77);
+    color: black;
+    border-radius:.5rem ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.answer-sub-container div {
+display: flex;
+justify-content: center;
+
+}
+.answer-sub-container div p{
+font-size:2rem;
+}
+.send-button{
+    display: flex;
+    justify-content: center;
+}
+.send-button button{
+    margin: 0 0 2.5rem;
+    border: black solid .1rem;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width:18rem;
+    height:4rem ;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+.send-button button:hover{
+    width: 18.5rem;
+    height: 4.5rem;
+    background-color:  rgb(247, 247, 77);
+}
