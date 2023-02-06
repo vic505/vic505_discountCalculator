@@ -19,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius:.5rem ;
-    margin: 10rem auto 5rem;
+    margin: 5rem auto 5rem;
 }
 .inputs-container{
     display: flex;
@@ -100,4 +100,29 @@ font-size:2rem;
     width: 18.5rem;
     height: 4.5rem;
     background-color:  rgb(247, 247, 77);
+}
+.adevert-container{
+    display: flex;
+    justify-items: center;
+    margin: 2rem auto;
+    align-items: center;
+    background-color: tomato;
+    width: 40rem;
+    height: 8rem;
+    border-radius: 1.5rem;
+    color: black;
+    padding: 1rem;
+    font-weight: 600;
+}
+#block{
+    margin: 0 0 0 1rem;
+}
+#advert{
+    font-size: 2rem;
+}
+#explanation{
+    font-size: 1.5rem;
+}
+.inactive{
+    display: none;
 }
